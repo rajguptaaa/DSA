@@ -1,23 +1,23 @@
 //// Basics array operations , cin,cout, loop, size, decleration, initialisation. 
-//#include<iostream>
-//using namespace std;
-//int main(){
-//	
-//	int n;
-//	cout<<"enter number of elements"<<" ";
-//	cin>>n;
-//	int arr[n];
-//	for(int i=0;i<n;i++){
-//		cin>>arr[i];
-//	}
-//	for(int i=0;i<n;i++){
-//		cout<<arr[i]<<" "<<endl;
-//	}
-//	
-//	cout<<"size of complete array: "<<sizeof(arr)<<endl;
-//	cout<<"size of one element in bits: "<<sizeof(arr)/sizeof(arr[0]);
-//	return 0;
-//}
+// #include<iostream>
+// using namespace std;
+// int main(){
+	
+// 	int n;
+// 	cout<<"enter number of elements"<<" ";
+// 	cin>>n;
+// 	int arr[n];
+// 	for(int i=0;i<n;i++){
+// 		cin>>arr[i];
+// 	}
+// 	for(int i=0;i<n;i++){
+// 		cout<<arr[i]<<" "<<endl;
+// 	}
+// 	cout<<"size of complete array: "<<sizeof(arr)<<endl;
+// 	cout<<"size of one element in bits: "<<sizeof(arr)/sizeof(arr[0])<<endl;
+//     cout<<"size of one element"<<sizeof(arr[0]);
+// 	return 0;
+// }
 
 
 
@@ -48,10 +48,9 @@
 
 
 //deleting the first element of the array (arr[0])
-
-//#include <iostream>
-//using namespace std;
-//int main() {
+// #include <iostream>
+// using namespace std;
+// int main() {
 //    const int size = 5;
 //    int array[size] = {2, 4, 6, 8, 10};
 //    cout << "Original Array: ";
@@ -67,36 +66,33 @@
 //        cout << array[i] << " ";
 //    }
 //    cout << endl;
-//
 //    return 0;
-//}
+// }
 
 
 //program to delete the last element off the array!
-//#include<iostream>
-//using namespace std;
-//int main(){
-//	int n;
-//	cout<<"enter size of array: "<<endl;
-//	int arr[n];
-//	cin>>n;
-//	for(int i=0; i<n; i++){
-//		cin>>arr[i];
-//	}
-//	cout<<"Original array :";
-//	for(int i=0; i<n; i++){
-//		cout<<arr[i]<<" ";
-//	}
-//	cout<<endl;
-//	int x= n-1;
-//	int new_arr[x];
-//	cout<<"Updated array: ";
-//	for(int i=0; i<x; i++){
-//		cout<<arr[i]<<" ";
-//	}
-//	return 0;
-//}
-
+// #include<iostream>
+// using namespace std;
+// int main(){
+// 	int n;
+// 	cout<<"enter size of array: "<<endl;
+// 	int arr[n];
+// 	cin>>n;
+// 	for(int i=0; i<n; i++){
+// 		cin>>arr[i];
+// 	}
+// 	cout<<"Original array :";
+// 	for(int i=0; i<n; i++){
+// 		cout<<arr[i]<<" ";
+// 	}
+// 	cout<<endl;
+// 	int x= n-1;
+// 	cout<<"Updated array: ";
+// 	for(int i=0; i<x; i++){
+// 		cout<<arr[i]<<" ";
+// 	}
+// 	return 0;
+// }
 
                                                     //trailing zeros in factorial
 #include<iostream>
@@ -109,7 +105,8 @@ int count(int n){
     return res;
 }
 int main(){
-    cout<<count(25);
+    cout<<count(5);
 
     return 0;
 }
+
