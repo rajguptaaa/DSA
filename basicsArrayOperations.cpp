@@ -95,18 +95,39 @@
 // }
 
                                                     //trailing zeros in factorial
-#include<iostream>
-using namespace std;
-int count(int n){
-    int res=0;
-    for(int i=5; i<=n; i=i*5){
-        res =res + n/i;
-    }
-    return res;
-}
-int main(){
-    cout<<count(5);
+// #include<iostream>
+// using namespace std;
+// int count(int n){
+//     int res=0;
+//     for(int i=5; i<=n; i=i*5){
+//         res =res + n/i;
+//     }
+//     return res;
+// }
+// int main(){
+//     cout<<count(5);
 
+//     return 0;
+// }
+
+                                                        //PoW
+#include<iostream>
+#include<math.h>
+using namespace std;
+double myPow(double x, int n) {
+        int p = INT_MIN;
+        int q = INT_MAX;
+        int power;
+        if(x > (-100) || x < (100) && x!=0){
+            if(n >= p || n <=q){
+                power = pow(x, n);
+            }
+            return power;
+        }
+        return 0;
+    }
+
+int main(){
+    cout<<myPow(2.0000, 1)<<endl;
     return 0;
 }
-

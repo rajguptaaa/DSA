@@ -1,16 +1,16 @@
-// #include<iostream>
-// #include<hashtable.h>
-// #include<unordered_map>
-// using namespace std;
+#include<iostream>
+#include<hashtable.h>
+#include<unordered_map>
+using namespace std;
 
-// int main(){
-//     unordered_map<int, int> m;
-//     m.insert({1, 10});
-//     m[2]=20;
-//     for(auto x : m){
-//         cout<<x.first<<" "<<x.second<<endl;
-//     }
-// }
+int main(){
+    unordered_map<int, int> m;
+    m.insert({1, 10});
+    m[2]=20;
+    for(auto x : m){
+        cout<<x.first<<" "<<x.second<<endl;
+    }
+}
 
 
 // #include<unordered_set>
@@ -23,3 +23,7 @@
 //         cout<<x<<endl;
 //     }
 // }
+
+
+
+

@@ -24,6 +24,7 @@ void altSwap(int arr[],int n){
         arr[i+1]=temp;
     }
 }
+
 int main(){
     int n;
     cout<<"Enter size of array: ";

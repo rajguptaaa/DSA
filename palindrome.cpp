@@ -1,6 +1,7 @@
                                                            // palindrome
 #include<iostream>
 using namespace std;
+
 bool isPalindrome(int x){
     int rev=0;
     int temp = x;
@@ -12,6 +13,9 @@ bool isPalindrome(int x){
     return (rev==x);
 }
 int main(){
-    int x=1001;
+    int x=100011;
     cout<<isPalindrome(x)<<endl;
+    cout<<isPalindrome(321)<<endl;
+
+    return 0;
 }
