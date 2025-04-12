@@ -117,7 +117,7 @@ using namespace std;
 double myPow(double x, int n) {
         int p = INT_MIN;
         int q = INT_MAX;
-        int power;
+        double power;
         if(x > (-100) || x < (100) && x!=0){
             if(n >= p || n <=q){
                 power = pow(x, n);
@@ -128,6 +128,7 @@ double myPow(double x, int n) {
     }
 
 int main(){
-    cout<<myPow(2.0000, 1)<<endl;
+    cout<<myPow(2.000, 1)<<endl;
+    cout<<myPow(4, 2)<<endl;
     return 0;
 }

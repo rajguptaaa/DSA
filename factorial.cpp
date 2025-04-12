@@ -7,6 +7,9 @@ int fact(int n){
     return n*fact(n-1);
 }
 int main(){
-    cout<<"Factorial: "<<fact(5)<<endl;
+    int n=5;
+    cout<<"Factorial: "<<fact(n)<<endl;
+
+    cout << "\"" << n << "\"" << endl;
     return 0;
 }
