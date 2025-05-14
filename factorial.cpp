@@ -10,6 +10,6 @@ int main(){
     int n=5;
     cout<<"Factorial: "<<fact(n)<<endl;
 
-    cout << "\"" << n << "\"" << endl;
+    // cout << "\"" << n << "\"" << endl; //checking how to print 👉 "" 
     return 0;
 }
