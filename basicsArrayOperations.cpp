@@ -111,24 +111,26 @@
 // }
 
                                                         //PoW
-#include<iostream>
-#include<math.h>
-using namespace std;
-double myPow(double x, int n) {
-        int p = INT_MIN;
-        int q = INT_MAX;
-        double power;
-        if(x > (-100) || x < (100) && x!=0){
-            if(n >= p || n <=q){
-                power = pow(x, n);
-            }
-            return power;
-        }
-        return 0;
-    }
+// #include<iostream>
+// #include<math.h>
+// using namespace std;
+// double myPow(double x, int n) {
+//         int p = INT_MIN;
+//         int q = INT_MAX;
+//         double power;
+//         if(x > (-100) || x < (100) && x!=0){
+//             if(n >= p || n <=q){
+//                 power = pow(x, n);
+//             }
+//             return power;
+//         }
+//         return 0;
+//     }
 
-int main(){
-    cout<<myPow(2.000, 1)<<endl;
-    cout<<myPow(4, 2)<<endl;
-    return 0;
-}
+// int main(){
+//     cout<<myPow(2.000, 1)<<endl;
+//     cout<<myPow(4, 2)<<endl;
+//     return 0;
+// }
+
+
