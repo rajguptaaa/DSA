@@ -1,8 +1,9 @@
 #include<iostream>
 #include<algorithm>
-using namespace std;
+#include<vector>
 
-void mergeArray(int a[], int b[], int c[], int n, int m){
+using namespace std;
+void mergeArray(vector<int>& a, vector<int>& b, vector<int>& c, int n, int m){
     int i=0,j=0,k=0;
     while(i < n && j < m){
         if(a[i] < b[j]){
@@ -23,22 +24,19 @@ void mergeArray(int a[], int b[], int c[], int n, int m){
         c[k++]=b[j++];
     }
 }
+
 int main(){
-        int a[]={23,1,4,45,6}; //1, 4, 6, 23, 45
-        int b[]={1,23,45,67}; //1, 23, 45, 67
+        vector<int> a ={1,4,6,23,45};
+        vector<int> b = {1,23,45,67};
+        int n = a.size();
+        int m = b.size();
 
-        int n = sizeof(a) / sizeof(a[0]);
-        int m = sizeof(b) / sizeof(b[0]);
-        int d = n+m;
-        int c[d] ={};
+        vector<int> res(n+m);
 
-        sort(a, a + n);
-        sort(b, b + m);
-
-        mergeArray(a,b,c,n,m);
+        mergeArray(a,b,res,n,m);
         
-        for(int i=0; i<d; i++){
-            cout<<c[i]<<" ";
+        for(int i=0; i<n+m; i++){
+            cout<<res[i]<<" ";
         }
         
 }
