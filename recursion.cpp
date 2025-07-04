@@ -1,14 +1,14 @@
 #include<iostream>
 using namespace std;
 
-// int recuNumm(int n){         //print from n to 1
-//     if( n == 0 ){
-//         return 1;
-//     }
-//     cout<<n<<" ";
-//     recuNumm( n - 1 );
-//     return 0;
-// }
+int recuNumm(int n){         //print from n to 1
+    if( n == 0 ){
+        return 1;
+    }
+    cout<<n<<" ";
+    recuNumm( n - 1 );
+    return 0;
+}
 
 // int recuNum(int n){         //print from 1 to n
 //     if(n==0) return 0;
