@@ -2,8 +2,21 @@
 #include<queue>
 using namespace std;
 
+// class Node{
+// public:
+//     int data;
+//     Node* left;
+//     Node* right;
+
+//     Node(int val){
+//         data = val;
+//         left = nullptr;
+//         right = nullptr;
+//     }
+// };
+
 class Node{
-public:
+    public:
     int data;
     Node* left;
     Node* right;
@@ -14,7 +27,6 @@ public:
         right = nullptr;
     }
 };
-
 void preOrder(Node* root){
     if(!root){
         return;
@@ -108,6 +120,7 @@ int main(){
     Node* p = new Node(1);
     p->left = new Node(2);
     p->right = new Node(3);
+
     Node* q = new Node(1);
     q->left = new Node(3);
     q->right = new Node(2);
@@ -116,3 +129,4 @@ int main(){
     return 0;
 }
 
+//print all subsets of a array {1,2,3,4,5}.
